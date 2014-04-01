@@ -9,14 +9,16 @@
     tools:context=".MainActivity"
     android:background="@drawable/testbackground"
      >
-
+<ScrollView android:layout_width="fill_parent" android:layout_height="195dp">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
     <Button
         android:id="@+id/btnscreen1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="Button 1"
+        android:text="Radio Buttons"
         android:textSize="25dp"
         android:textStyle="bold" />
 
@@ -26,9 +28,31 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
-        android:text="Button 2"
+        android:text="List View"
         android:textSize="24dp"
         android:textStyle="bold" />
+    
+
+       
+    <Button
+        android:id="@+id/tutorial3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Button 3" android:textSize="25dp"
+        android:textStyle="bold">
+        </Button>
+        
+    <Button
+        android:id="@+id/tutorial4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Button 4" android:textSize="25dp"
+        android:textStyle="bold">
+
+</Button>        
+    <Button
+        android:id="@+id/tutorial5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Button 5" android:textSize="25dp"
+        android:textStyle="bold">
+        </Button>
+        </LinearLayout>
+        </ScrollView>
+    
 
 </RelativeLayout>
